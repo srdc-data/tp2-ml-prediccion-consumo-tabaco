@@ -1,0 +1,127 @@
+Prueba 1 XGBOOST
+Con random_state = 42
+
+=== TRAIN ===
+Accuracy : 0.8603
+Precision: 0.800198478332782
+Recall   : 0.8248653072358999
+F1 Score : 0.8123446839948956
+              precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89     25337
+           1       0.80      0.82      0.81     14663
+
+    accuracy                           0.86     40000
+   macro avg       0.85      0.85      0.85     40000
+weighted avg       0.86      0.86      0.86     40000
+
+=== TEST ===
+Accuracy : 0.7672
+Precision: 0.676610348468849
+Recall   : 0.699127114020731
+F1 Score : 0.6876844647169305
+              precision    recall  f1-score   support
+
+           0       0.82      0.81      0.81      6334
+           1       0.68      0.70      0.69      3666
+
+    accuracy                           0.77     10000
+   macro avg       0.75      0.75      0.75     10000
+weighted avg       0.77      0.77      0.77     10000
+
+Prueba 2
+Con random_state = 42
+n_estimators=100
+
+=== TRAIN ===
+Accuracy : 0.8603
+Precision: 0.800198478332782
+Recall   : 0.8248653072358999
+F1 Score : 0.8123446839948956
+              precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89     25337
+           1       0.80      0.82      0.81     14663
+
+    accuracy                           0.86     40000
+   macro avg       0.85      0.85      0.85     40000
+weighted avg       0.86      0.86      0.86     40000
+
+=== TEST ===
+Accuracy : 0.7672
+Precision: 0.676610348468849
+Recall   : 0.699127114020731
+F1 Score : 0.6876844647169305
+              precision    recall  f1-score   support
+
+           0       0.82      0.81      0.81      6334
+           1       0.68      0.70      0.69      3666
+
+    accuracy                           0.77     10000
+   macro avg       0.75      0.75      0.75     10000
+weighted avg       0.77      0.77      0.77     10000
+
+Prueba 3
+Con random_state = 42
+n_estimators=200
+
+=== TRAIN ===
+Accuracy : 0.9105
+Precision: 0.8735422986181328
+Recall   : 0.8837891291004569
+F1 Score : 0.878635839717947
+              precision    recall  f1-score   support
+
+           0       0.93      0.93      0.93     25337
+           1       0.87      0.88      0.88     14663
+
+    accuracy                           0.91     40000
+   macro avg       0.90      0.90      0.90     40000
+weighted avg       0.91      0.91      0.91     40000
+
+=== TEST ===
+Accuracy : 0.7709
+Precision: 0.6823123839830284
+Recall   : 0.7018548827059465
+F1 Score : 0.6919456770203039
+              precision    recall  f1-score   support
+
+           0       0.82      0.81      0.82      6334
+           1       0.68      0.70      0.69      3666
+
+    accuracy                           0.77     10000
+   macro avg       0.75      0.76      0.75     10000
+weighted avg       0.77      0.77      0.77     10000
+
+Prueba 4
+n_estimators=100
+max_depth=5
+random_state=42
+
+=== TRAIN ===
+Accuracy : 0.82455
+Precision: 0.7491688938139626
+Recall   : 0.7838095887608266
+F1 Score : 0.7660978536195174
+              precision    recall  f1-score   support
+
+           0       0.87      0.85      0.86     25337
+           1       0.75      0.78      0.77     14663
+
+    accuracy                           0.82     40000
+   macro avg       0.81      0.82      0.81     40000
+weighted avg       0.83      0.82      0.83     40000
+
+=== TEST ===
+Accuracy : 0.7664
+Precision: 0.6737199582027168
+Recall   : 0.7034915439170758
+F1 Score : 0.6882839605017347
+              precision    recall  f1-score   support
+
+           0       0.82      0.80      0.81      6334
+           1       0.67      0.70      0.69      3666
+
+    accuracy                           0.77     10000
+   macro avg       0.75      0.75      0.75     10000
+weighted avg       0.77      0.77      0.77     10000
