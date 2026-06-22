@@ -48,68 +48,72 @@ requirements.txt
 
 ```
 
-## Diccionario de Datos: DataSet de TRAIN smoking_prediction.xlsx - smoking_prediction.csv
+## Diccionario de Datos
 
- #   Column                 Dtype  
----  ------                 -----  
- 0   ID                     int64  
- 1   gender                 object 
- 2   age                    int64  
- 3   height(cm)             int64  
- 4   weight(kg)             int64  
- 5   waist(cm)              float64
- 6   eyesight(left)         float64
- 7   eyesight(right)        float64
- 8   hearing(left)          float64
- 9   hearing(right)         float64
- 10  systolic               float64
- 11  relaxation             float64
- 12  fasting blood sugar    float64
- 13  Cholesterol            float64
- 14  triglyceride           float64
- 15  HDL                    float64
- 16  LDL                    float64
- 17  hemoglobin             float64
- 18  Urine protein          float64
- 19  serum creatinine       float64
- 20  AST                    float64
- 21  ALT                    float64
- 22  Gtp                    float64
- 23  oral                   object 
- 24  dental caries          int64  
- 25  tartar                 object 
- 26  smoking                int64
+### Dataset de Entrenamiento
+**Archivo:** `smoking_prediction.xlsx - smoking_prediction.csv`
 
-## Diccionario de Datos: DataSet de TEST smoking_prediction_entrega.xlsx - smoking_prediction.csv
+| Variable | Tipo |
+|-----------|------|
+| ID | int64 |
+| gender | object |
+| age | int64 |
+| height(cm) | int64 |
+| weight(kg) | int64 |
+| waist(cm) | float64 |
+| eyesight(left) | float64 |
+| eyesight(right) | float64 |
+| hearing(left) | float64 |
+| hearing(right) | float64 |
+| systolic | float64 |
+| relaxation | float64 |
+| fasting blood sugar | float64 |
+| Cholesterol | float64 |
+| triglyceride | float64 |
+| HDL | float64 |
+| LDL | float64 |
+| hemoglobin | float64 |
+| Urine protein | float64 |
+| serum creatinine | float64 |
+| AST | float64 |
+| ALT | float64 |
+| Gtp | float64 |
+| oral | object |
+| dental caries | int64 |
+| tartar | object |
+| smoking | int64 (variable objetivo) |
 
- #   Column                 Dtype  
----  ------                 -----  
- 0   ID                      int64  
- 1   gender                  object 
- 2   age                     int64  
- 3   height(cm)              int64  
- 4   weight(kg)              int64  
- 5   waist(cm)               float64
- 6   eyesight(left)          float64
- 7   eyesight(right)         float64
- 8   hearing(left)           float64
- 9   hearing(right)          float64
- 10  systolic                float64
- 11  relaxation              float64
- 12  fasting blood sugar     float64
- 13  Cholesterol             float64
- 14  triglyceride            float64
- 15  HDL                     float64
- 16  LDL                     float64
- 17  hemoglobin              float64
- 18  Urine protein           float64
- 19  serum creatinine        float64
- 20  AST                     float64
- 21  ALT                     float64
- 22  Gtp                     float64
- 23  oral                    object 
- 24  dental caries           int64  
- 25  tartar                  object 
+### Dataset de Predicción
+**Archivo:** `smoking_prediction_entrega.xlsx - smoking_prediction.csv`
+
+| Variable | Tipo |
+|-----------|------|
+| ID | int64 |
+| gender | object |
+| age | int64 |
+| height(cm) | int64 |
+| weight(kg) | int64 |
+| waist(cm) | float64 |
+| eyesight(left) | float64 |
+| eyesight(right) | float64 |
+| hearing(left) | float64 |
+| hearing(right) | float64 |
+| systolic | float64 |
+| relaxation | float64 |
+| fasting blood sugar | float64 |
+| Cholesterol | float64 |
+| triglyceride | float64 |
+| HDL | float64 |
+| LDL | float64 |
+| hemoglobin | float64 |
+| Urine protein | float64 |
+| serum creatinine | float64 |
+| AST | float64 |
+| ALT | float64 |
+| Gtp | float64 |
+| oral | object |
+| dental caries | int64 |
+| tartar | object |
 
 ---
 
