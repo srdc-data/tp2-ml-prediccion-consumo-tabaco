@@ -42,7 +42,9 @@ models/
 
 predictions/
 
-text/
+README.md
+
+requirements.txt
 
 ```
 
@@ -193,6 +195,6 @@ predictions/
 
 Las dependencias necesarias se encuentran en:
 
-```text
+```
 requirements.txt
 ```
