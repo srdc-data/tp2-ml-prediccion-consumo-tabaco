@@ -201,4 +201,24 @@ Las dependencias necesarias se encuentran en:
 
 ```
 requirements.txt
+
 ```
+
+---
+
+## Ajustes posteriores a la entrega inicial
+
+Tras las instancias de revisión y defensa realizadas durante la cursada se incorporaron algunos ajustes orientados a mejorar la documentación y la reproducibilidad del trabajo.
+
+Entre ellos se destacan:
+
+* la incorporación de los modelos serializados correspondientes a Logistic Regression y XGBoost además del modelo final seleccionado,
+* la documentación del carácter exploratorio y formativo del análisis de correlación realizado durante el Discovery y EDA,
+* y pequeñas mejoras de documentación y trazabilidad del pipeline implementado.
+
+Asimismo, se deja constancia de que únicamente se generó el archivo final de predicciones utilizando el modelo Random Forest, dado que el objetivo principal del TP2 consistía en optimizar y seleccionar el modelo con mejor desempeño según la métrica F1 Score definida para el problema.
+
+Si bien durante el proceso de validación se observó un nivel demasiado elevado de sobreajuste o "overfitting" sobre el conjunto de entrenamiento para dicho modelo, también se obtuvo el mejor rendimiento sobre el conjunto de prueba bajo la métrica objetivo establecida, motivo por el cual se decidió mantenerlo como modelo final del trabajo y generar a partir de él el archivo de predicciones entregado.
+
+Estos ajustes no modifican el proceso de entrenamiento, validación ni las predicciones generadas originalmente, sino que buscan reflejar de manera más fiel el proceso de aprendizaje y las observaciones metodológicas surgidas durante el desarrollo del trabajo y luego de las defensas posteriores.
+
