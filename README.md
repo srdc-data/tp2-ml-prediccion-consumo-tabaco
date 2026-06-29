@@ -175,8 +175,8 @@ Motivos:
 | Modelo              | F1 Score Test |
 | ------------------- | ------------- |
 | Random Forest       | 0.73          |
-| XGBoost             | 0.69          |
-| Logistic Regression | 0.67          |
+| XGBoost             | 0.72          |
+| Logistic Regression | 0.71          |
 
 ---
 
@@ -221,4 +221,15 @@ Asimismo, se deja constancia de que únicamente se generó el archivo final de p
 Si bien durante el proceso de validación se observó un nivel demasiado elevado de sobreajuste o "overfitting" sobre el conjunto de entrenamiento para dicho modelo, también se obtuvo el mejor rendimiento sobre el conjunto de prueba bajo la métrica objetivo establecida, motivo por el cual se decidió mantenerlo como modelo final del trabajo y generar a partir de él el archivo de predicciones entregado.
 
 Estos ajustes no modifican el proceso de entrenamiento, validación ni las predicciones generadas originalmente, sino que buscan reflejar de manera más fiel el proceso de aprendizaje y las observaciones metodológicas surgidas durante el desarrollo del trabajo y luego de las defensas posteriores.
+
+## Actualización metodológica posterior a la defensa
+
+Aprovechando el tiempo adicional disponible previo a la corrección final del trabajo, se realizaron experimentos complementarios sobre modelos probabilísticos incorporando conceptos trabajados durante las clases prácticas de la cursada.
+
+En particular, se exploró el impacto del ajuste del umbral de clasificación en Logistic Regression y XGBoost utilizando como referencia la distribución observada durante la etapa de Discovery (~37% fumadores y ~63% no fumadores), buscando mejorar el equilibrio entre precisión y recall medido mediante F1 Score.
+
+Asimismo, se realizaron pruebas adicionales sobre Random Forest utilizando configuraciones de hiperparámetros más conservadoras similares a las trabajadas durante las clases prácticas, logrando reducir significativamente el sobreajuste (Overfitting) observado aunque sacrificando desempeño sobre la métrica objetivo del trabajo.
+
+Considerando que el objetivo principal del TP2 consistía en maximizar el F1 Score, se decidió finalmente conservar las configuraciones originalmente seleccionadas y documentar explícitamente las limitaciones observadas, priorizando el cumplimiento del objetivo del trabajo por sobre las configuraciones alternativas evaluadas.
+
 
